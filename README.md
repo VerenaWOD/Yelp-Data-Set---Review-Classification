@@ -10,7 +10,7 @@
 Download Main.py from this Github repo and merged_small.pkl from Google Drive (https://drive.google.com/file/d/1v1AKrZGwKtehgQwoTUF80gDnq2b7U9Xo/view?usp=sharing) and save them in a folder. Run the following commands:
 
 ```sh
-docker pull viavia/final:2
+docker pull viavia/firstrepo:final
 docker run -it -v [YOUR_PATH_TO_FOLDER]:/app -w /app  final:2 bash
 ```
 Now you can run bash commands inside the docker container. Simply run the python file in commandline fashion.
